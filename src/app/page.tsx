@@ -1,7 +1,5 @@
 'use client'
-import { Button } from '@/components/ui/button'
-import { Card } from '@/components/ui/card'
-import { ScrollArea } from '@/components/ui/scroll-area'
+import { Button, Card, ScrollArea } from '@/components/ui'
 import { Plus } from 'lucide-react'
 import { useEffect, useOptimistic, useState, useTransition } from 'react'
 import { getStats, incrementAndLog } from './counter'
