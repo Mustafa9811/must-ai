@@ -1,6 +1,5 @@
 import { GoogleGenerativeAI, HarmCategory, HarmBlockThreshold } from '@google/generative-ai';
-import { Message } from 'ai';
-import { StreamingTextResponse } from 'ai/streaming';
+import { Message, StreamingTextResponse } from 'ai';
 import { env } from '@/env';
 import { retrieveRagContext } from '@/lib/rag';
 
